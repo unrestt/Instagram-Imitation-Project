@@ -1,0 +1,299 @@
+
+.edit-profile-containers{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.edit-profile-container, .change-password-profile-container{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    padding: 20px;
+}
+.edit-profile-text{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.change-avatar-nickname-container{
+    margin: 20px 0 30px 0;
+    background-color: #262626;
+    border-radius: 20px;
+    display: flex;
+    padding: 18px;
+    align-items: center;
+    gap: 20px;
+    max-width: 550px;
+}
+
+.change-avatar-nickname-container button{
+    margin-left: auto;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2c97ee;
+    color: #fff;
+    font-weight: bold;
+    width: 100px;
+}
+.change-avatar-nickname-container button:hover{
+    background-color: #1877F2;
+}
+
+.change-avatar-nickname-container .img-temp{
+    width: 50px;
+    height: 50px;
+}
+.edit-profile-text-heading{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.edit-profile-container textarea{
+    resize: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    height: 100px;
+    overflow: auto;
+    padding: 15px 15px 0 15px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    width: 100%;
+    border: 1px solid rgb(50, 52, 50);
+}
+.edit-profile-container textarea:focus{
+    outline: none;
+}
+.edit-profile-container select{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    height: 50px;
+    overflow: auto;
+    padding: 15px 15px 0 15px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid rgb(50, 52, 50);
+}
+#save-button{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #2c97ee;
+    color: #fff;
+    align-self: flex-end;
+    margin-top: 20px;
+}
+#save-button:hover{
+    background-color: #1877F2;
+}
+.change-avatar-nickname-container .img-temp img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.change-password-profile-container{
+    gap: 10px;
+}
+.password-change-heading{
+    font-size: 18px;
+}
+
+.change-password-profile-container input, button{
+    width: 250px;
+    height: 40px;
+    outline: none;
+}
+.change-password-profile-container input{
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:#555555;
+    color: #fff;
+    border: none
+}
+.change-password-profile-container button{
+    border-radius: 10px;
+    border: none;
+    background-color: #2c97ee;
+    color: #fff;
+    align-self: flex-end;
+}
+.change-password-profile-container button:hover{
+    background-color: #1877F2;
+}
+.password-information{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.password-information p{
+    font-size: 15px;
+    color:#919191;
+}
+.password-information i{
+    font-size: 20px;
+    color:#919191;
+}
+.user-profile-column{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+  .edit-profile-login-img-change form{
+    display: flex;
+    flex-direction: column;
+  }
+  .reg-column-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 450px;
+  }
+  .choose-img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border: medium dashed #d9e3eb;
+    border-radius: 10px;
+    padding: 40px;
+    min-width: 450px;
+  }
+  .choose-img span{
+    color: #2c97ee;
+    font-weight: bold;
+  }
+  .choose-img span:hover{
+    text-decoration: underline;
+  }
+  .reg-column-left .img-temp{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  .reg-column-left .img-temp img{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+  }
+  .reg-column-left p:nth-child(1){
+    font-size: 25px;
+  }
+  .reg-column-left p:nth-child(3){
+    color: #c3d1de;
+  }
+  .reg-column-left i{
+    font-size: 60px;
+  }
+  .reg-column-right{
+    width: 300px;
+  }
+  .reg-column-right input{
+    resize: none;
+    background-color: #555555;
+    color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    height: 50px;
+    overflow: auto;
+    padding: 15px 15px 0 15px;
+    font-size: 15px;
+    max-width: 550px;
+    border: none;
+    padding-bottom: 15px;
+  }
+  .reg-column-right input::placeholder{
+    color: #a09f9f;
+    
+  }
+  .reg-column-right input:focus{
+    outline: none;
+  }
+  .reg-column-right-text{
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .register-container.after-reg p{
+    color: red;
+  }
+  input[type="file"]{
+    border-radius: 0;
+    background-color: #000000;
+  }
+  .reg-columns{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+  }
+  .register-container-after-reg button{
+    align-self: flex-end;
+  }
+  .text-reg{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .optional-text{
+    margin-bottom: 16px;
+    font-size: 13px;
+    color: #a09f9f;
+  }
+  
+  #button_register, #button_login{
+    margin-left: 55px;
+  }
+  .edit-profile-login-img-change{
+    position: absolute;
+    min-height: 500px;
+    gap: 30px;
+    background-color: #1f1f1f;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .background-change{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.background-change #popupclose{
+  position: absolute;
+  top: 1%;
+  right: 1%;
+}
+.edit-profile-login-img-change button{
+  min-width: 180px;
+  height: 50px;
+  padding: 10px;
+  background-color: #2c97ee;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  margin-left: auto;
+}
+.edit-profile-login-img-change button:hover{
+  background-color: #1877F2;
+}
